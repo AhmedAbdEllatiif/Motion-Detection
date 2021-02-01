@@ -14,6 +14,8 @@ f=figure(x_axis_label = "Time",x_axis_type = "datetime",height=300,title= "Motio
 f.title.text_color = "red"
 f.title.text_font = "times"
 f.title.text_font_style = "italic"
+f.yaxis.minor_tick_line_color = None # to remove the scale line from yaxis
+
 
 
 #4# create a quad plot
